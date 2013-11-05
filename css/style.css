@@ -37,8 +37,14 @@ html {
 				padding: 4.5em 0 .5em; /* 10 */
 			}
 
+				.footer {
+					color: #989898;
+					text-decoration: none;
+				}
+
 				nav a {
 					color: white;
+					text-decoration: none;
 				}
 
 		section {
@@ -56,12 +62,17 @@ html {
 			#articles {
 				width: 80%;
 				margin: 2em auto 0;
+				font-size: 38px; 
+			}
+
+			.paragraph{
+				font-size: 16px;
 			}
 		
 				.article {
 					width: 45%;
 					float: left;
-					color: hsla(0,100%,100%,.75);
+					color: #F58025;
 					font-size: 1.5em;
 				}
 
